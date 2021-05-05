@@ -1,0 +1,111 @@
+html {
+  background-color:lightgrey;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+/* font sizes for headings*/
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/* style the header*/
+header {
+  border: 5px solid purple;
+  padding: 5px;
+  margin: 10px;
+}
+
+section {
+  padding: 5px;
+  margin: 5px;
+}
+
+section#bio {
+  float: left;
+  padding: 5px;
+  margin: 10px;
+}
+
+#bio>p {
+  text-align:justify;
+}
+
+figure {
+  display:inline;
+  padding: 5px;
+}
+
+#me {
+  float:left;
+}
+
+#luna {
+  float:right;
+}
+
+figcaption {
+  display: inside;
+  text-align: center;
+}
+
+section#edu {
+  display: block;
+  padding-left: 10px;
+}
+
+#edu>ul {
+  text-align: left;
+}
+
+
+#edu>ul>li {
+  list-style-type:disc;
+  list-style-position: inside;
+  padding: 2px;  
+}
+
+section#job {
+  margin-top: 5px;
+
+}
+
+#job>ul {
+  display: inline-block;
+  text-align: left;
+}
+
+#job>ul>li {
+  list-style-type: square;
+  list-style-position: inside;
+  padding: 2px;
+}
+
+#goals>ul {
+  display: inline-block;
+  text-align: left;
+}
+
+#goals>ol>li {
+  list-style-position: inside;
+  list-style-type: decimal;
+}
+
+footer {
+  display: block;
+  margin: auto auto;
+}
+
+footer>p {
+  text-align: center;
+}
+
+
