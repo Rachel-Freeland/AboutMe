@@ -182,12 +182,16 @@ function favDesserts() {
   alert('Any of these would have been correct: ' + faveDesserts);
 }
 
+let userName = greeting();
+dogQuestion();
+catQuestion();
+children();
+sibling();
+homeTown();
+numberGame();
+favDesserts();
 
-
-
-
-
-alert(greeting() + ', your final score is ' + score);
+alert(userName + ', your final score is ' + score);
 
 
 
