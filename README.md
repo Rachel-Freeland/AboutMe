@@ -6,3 +6,7 @@ The questions about the author was expanded to 7 with one question allowing for 
 
 Author: Rachel Freeland
 The reset.css file for this project can be found at <https://meyerweb.com/eric/tools/css/reset/>
+
+Some refactoring completed via pair programming:
+Driver: Steven Boston
+Navigator: Rachel Freeland
