@@ -1,15 +1,17 @@
 html {
-  background-color:lightgrey;
+  background-color:lightgray;
+  color:darkblue;
 }
 
 body * {
-  box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 /* font sizes for headings*/
 h1 {
   font-size: 2em;
   text-align: center;
+  text-decoration: wavy underline;
 }
 
 h2 {
@@ -20,10 +22,10 @@ h2 {
 /* style the header*/
 header {
   height: 100px;
-  width: 100%;
-  border: 5px solid purple;
+  width: 50%;
+  /* border: 5px solid purple; */
   padding-top: 25px;
-  margin: auto;
+  margin: auto auto;
 }
 
 section {
@@ -31,29 +33,40 @@ section {
   margin: 5px;
 }
 
-#bio {
+section#bio {
   height: 400px;
-  width: 100%;
+  width: 95%;
   padding: 2px;
   margin: 10px auto 0px auto;
-  border: 3px dashed purple;
+  /* border: 3px dashed purple; */
 }
+
 
 #bio>p {
   text-align:justify;
+  text-indent: 15px;
+}
+
+
+.first-letter {
+  font-size: 32px;
+  font-style: oblique;
+  font-weight: bold;
 }
 
 figure {
   display:inline;
-  padding: 0px 5px 0px 5px;
+  padding: 5px;
 }
 
 #me {
   float:left;
+  margin-right:5px;
 }
 
 #luna {
   float:right;
+  margin-left: 5px;
 }
 
 figcaption {
@@ -61,61 +74,68 @@ figcaption {
   text-align: center;
 }
 
+figcaption>span {
+  color: red;
+}
+
 #edu {
-height: 250px;
-width: 49%;
-border: 3px dashed blue;
+height: 350px;
+width: 30%;
+/* border: 3px dashed blue; */
 float: left;
+margin-right: 30px;
+margin-left: 15px;
+padding: 5px;
 }
 
 #edu>ul {
   text-align: left;
-  padding: 5px;
+  padding-top: 15px;
 }
 
 
 #edu>ul>li {
   list-style-type:disc;
   list-style-position: inside;
-  padding: 2px;  
+  padding: 3px;  
 }
 
 #job {
-  margin-top: 5px;
-  height: 250px;
-  width: 49%;
-  padding: 2px;
-  border: 3px green dashed;
-  float: right;
-
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 350px;
+  width: 30%;
+  padding: 5px;
+  /* border: 3px green dashed; */
+  float: left;
 }
 
 #job>ul {
   display: inline-block;
   text-align: left;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 #job>ul>li {
   list-style-type: square;
   list-style-position: inside;
   text-align: justify;
-  padding: 2px;
+  padding: 3px;
 }
 
 #goals {
-  margin-top: 5px;
-  height: 200px;
-  width: 49%;
-  border: 3px dashed red;
-  float: right;
-  padding: 2px;
+  margin-left: 30px;
+  height: 350px;
+  width: 30%;
+  /* border: 3px dashed red; */
+  float: left;
+  padding: 5px;
 }
 
 #goals>ol {
   display: inline-block;
   text-align: left;
-  padding: 5px;
+  padding-top: 15px;
 }
 
 #goals>ol>li {
@@ -124,15 +144,28 @@ float: left;
   padding: 2px;
 }
 #top10 {
-  height:300px;
-  width: 49%;
-  border: 3px solid black;
+  height:600px;
+  width: 80%;
+  /* border: 3px solid black; */
   float: left;
+  margin-left: 110px;
+  margin-right: 90px;
+  padding: 5px;
+}
+
+#top10>img {
+ height: 250px;
+ width: 100%;
+ padding: 10px;
+
 }
 
 #top10>p {
   text-align: justify;
-  padding: 2px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
 }
 
 #top10>ol {
@@ -141,6 +174,11 @@ float: left;
   padding: 15px;
   margin-left: auto;
   margin-right: auto;
+  width: 450px;
+}
+
+#top10>ol>li {
+  padding: 4px;
 }
 
 footer {
@@ -150,6 +188,11 @@ footer {
 }
 
 footer>p {
+  padding-top: 20px;
+  text-align: center;
+}
+
+footer>p>a {
   text-align: center;
 }
 

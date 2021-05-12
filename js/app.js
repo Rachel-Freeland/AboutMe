@@ -16,11 +16,11 @@ function greeting() {
 function dogQuestion() {
 // Ask a question that expects a 'yes' or 'no' answer. Question 1
   let dogAnswer = prompt('Do you think Rachel has a dog? Please answer Yes or No');
-// convert answer to all lowercase
+  // convert answer to all lowercase
   let lowercaseDog = dogAnswer.toLowerCase();
-// determines acceptable answers and returns an alert to whether the user was right or wrong
+  // determines acceptable answers and returns an alert to whether the user was right or wrong
   if (lowercaseDog === 'yes' || lowercaseDog === 'y') {
-// console.log('You are correct, ' + userName + '!');
+    // console.log('You are correct, ' + userName + '!');
     alert('You are correct, ' + userName + '!');
     score++;
     console.log(score);
@@ -47,9 +47,9 @@ function catQuestion() {
     score++;
   } else if (lowercaseCat === 'yes' || lowercaseCat === 'y') {
   // console.log('That would be incorrect. Luna might eat the cat because she has a high prey drive.');
-  alert('That would be incorrect. Luna might eat the cat because she has a high prey drive.');
+    alert('That would be incorrect. Luna might eat the cat because she has a high prey drive.');
   } else {
-   // console.log('I don\'t think you understood the question or possibly the instructions.');
+    // console.log('I don\'t think you understood the question or possibly the instructions.');
     alert('I don\'t think you understood the question or possibly the instructions.');
   }
 }
